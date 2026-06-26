@@ -1,0 +1,9 @@
+python-telegram-bot==21.5
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+aiohttp
+httpx
+google-generativeai
+pillow
