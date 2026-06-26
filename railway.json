@@ -1,3 +1,6 @@
-"deploy": {
-  "startCommand": "pip3 install python-telegram-bot==21.5 google-genai fastapi uvicorn python-multipart httpx && python3 -m uvicorn main:app --host 0.0.0.0 --port 8000"
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "deploy": {
+    "startCommand": "python3 -m uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}"
+  }
 }
